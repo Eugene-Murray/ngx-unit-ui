@@ -1,0 +1,21 @@
+.em-code,
+.em-codespan {
+    font-family: Consolas, "courier new";
+    font-size: 16px;
+}
+
+.em-code {
+    width: auto;
+    background-color: #fff;
+    padding: 8px 12px;
+    border-left: 4px solid #4caf50;
+    word-wrap: break-word;
+}
+
+.em-codespan {
+    color: crimson;
+    background-color: #f1f1f1;
+    padding-left: 4px;
+    padding-right: 4px;
+    font-size: 110%;
+}

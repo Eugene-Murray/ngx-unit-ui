@@ -1,5 +1,5 @@
 {
-  "name": "angular-w3css",
+  "name": "angular-em-scss",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -7,7 +7,7 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "serve:ssr:angular-w3css": "node dist/angular-w3css/server/server.mjs"
+    "serve:ssr:angular-em-scss": "node dist/angular-em-scss/server/server.mjs"
   },
   "private": true,
   "dependencies": {

@@ -1,0 +1,22 @@
+.em-sidebar {
+    height: 100%;
+    width: 200px;
+    background-color: #fff;
+    position: fixed !important;
+    z-index: 1;
+    overflow: auto;
+}
+.em-bar-block .em-dropdown-hover,
+.em-bar-block .em-dropdown-click {
+    width: 100%;
+}
+.em-bar-block .em-dropdown-hover .em-dropdown-content,
+.em-bar-block .em-dropdown-click .em-dropdown-content {
+    min-width: 100%;
+}
+.em-bar-block .em-dropdown-hover .em-button,
+.em-bar-block .em-dropdown-click .em-button {
+    width: 100%;
+    text-align: left;
+    padding: 8px 16px;
+}
