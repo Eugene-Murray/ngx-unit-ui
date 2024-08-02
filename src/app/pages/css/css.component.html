@@ -1,5 +1,5 @@
 <p id="top">
-  <span class="em-tag em-xxxlarge em-blue">EM.SCSS</span>
+  <span class="em-tag em-xxxlarge em-blue">UNIT CSS</span>
 </p>
 
 <div class="em-container em-margin em-light-grey em-border">
@@ -178,6 +178,7 @@
   </table>
 </div>
 
+@defer (on viewport) {
 <div class="em-container em-margin em-light-grey em-border">
   <h2>Containers</h2>
 
@@ -213,7 +214,9 @@
     <hr />
   </section>
 </div>
-
+} @placeholder {
+<div>loading...</div>
+} @defer (on viewport) {
 <div class="em-container em-margin em-light-grey em-border">
   <h2>Panels</h2>
 
@@ -224,7 +227,9 @@
     </p>
   </div>
 </div>
-
+} @placeholder {
+<div>loading...</div>
+} @defer (on viewport) {
 <div class="em-container em-margin em-light-grey em-border">
   <h2>Borders</h2>
 
@@ -244,7 +249,9 @@
     <p>I have top and bottom borders.</p>
   </div>
 </div>
-
+} @placeholder {
+<div>loading...</div>
+} @defer (on viewport) {
 <div class="em-container em-margin em-light-grey em-border">
   <h2>Cards</h2>
   <div class="em-panel">
@@ -263,7 +270,9 @@
     </div>
   </div>
 </div>
-
+} @placeholder {
+<div>loading...</div>
+} @defer (on viewport) {
 <div class="em-container em-margin em-light-grey em-border">
   <h2>Defaults</h2>
   <div class="em-container">
@@ -275,7 +284,9 @@
     <h6>Heading 6 (16px)</h6>
   </div>
 </div>
-
+} @placeholder {
+<div>loading...</div>
+} @defer (on viewport) {
 <div class="em-container em-margin em-light-grey em-border">
   <h2>Fonts</h2>
   <div class="em-panel">
@@ -312,31 +323,41 @@
     </p>
   </div>
 </div>
-
+} @placeholder {
+<div>loading...</div>
+} @defer (on viewport) {
 <div class="em-container em-margin em-light-grey em-border">
   <h2>Text</h2>
   <p>---</p>
 </div>
-
+} @placeholder {
+<div>loading...</div>
+} @defer (on viewport) {
 <div class="em-container em-margin em-light-grey em-border">
   <h2>Round Classes</h2>
   <div class="em-round em-teal em-margin em-padding">em-round</div>
 </div>
-
+} @placeholder {
+<div>loading...</div>
+} @defer (on viewport) {
 <div class="em-container em-margin em-light-grey em-border">
   <h2>Padding</h2>
   <div class="em-panel em-orange em-padding-16">
     <p>I have 16px top and bottom padding.</p>
   </div>
 </div>
-
+} @placeholder {
+<div>loading...</div>
+} @defer (on viewport) {
 <div class="em-container em-margin em-light-grey em-border">
   <h2>Margins</h2>
   <div class="em-container em-green em-margin">
     <p>I have 16px margin on all sides.</p>
   </div>
 </div>
-
+} @placeholder {
+<div>loading...</div>
+} @defer (on viewport) {
 <div class="em-container em-margin em-light-grey em-border">
   <h2>Display</h2>
   <div class="em-display-container em-green" style="height: 300px">
@@ -351,7 +372,9 @@
     <div class="em-display-bottommiddle">Bottom Mid</div>
   </div>
 </div>
-
+} @placeholder {
+<div>loading...</div>
+} @defer (on viewport) {
 <div class="em-container em-margin em-light-grey em-border">
   <h2>Buttons</h2>
   <div class="em-panel">
@@ -402,7 +425,9 @@
     <button class="em-btn em-red em-padding-large">Button</button>
   </div>
 </div>
-
+} @placeholder {
+<div>loading...</div>
+} @defer (on viewport) {
 <div class="em-container em-margin em-light-grey em-border">
   <h2>Notes</h2>
   <div class="em-panel em-pale-blue em-leftbar em-rightbar em-border-blue">
@@ -412,7 +437,9 @@
     </p>
   </div>
 </div>
-
+} @placeholder {
+<div>loading...</div>
+} @defer (on viewport) {
 <div class="em-container em-margin em-light-grey em-border">
   <h2>Quotes</h2>
 
@@ -423,7 +450,9 @@
     <p>Albert Einstein</p>
   </div>
 </div>
-
+} @placeholder {
+<div>loading...</div>
+} @defer (on viewport) {
 <div class="em-container em-margin em-light-grey em-border">
   <h2>Alerts</h2>
   <div class="em-panel em-yellow em-border">
@@ -431,7 +460,9 @@
     <p>Yellow often indicates a warning that might need attention.</p>
   </div>
 </div>
-
+} @placeholder {
+<div>loading...</div>
+} @defer (on viewport) {
 <div class="em-container em-margin em-light-grey em-border">
   <h2>Tables</h2>
   <div class="em-panel">
@@ -459,7 +490,9 @@
     </table>
   </div>
 </div>
-
+} @placeholder {
+<div>loading...</div>
+} @defer (on viewport) {
 <div class="em-container em-margin em-light-grey em-border">
   <h2>Lists</h2>
   <ul class="em-ul em-margin em-white">
@@ -482,7 +515,8 @@
   <img
     width="500"
     height="500"
-    src="tree1.jpg"
+    priority
+    ngSrc="tree1.jpg"
     class="em-round em-border em-margin"
     alt="oak tree"
   />
@@ -575,7 +609,9 @@
     </div>
   </div>
 </div>
-
+} @placeholder {
+<div>loading...</div>
+} @defer (on viewport) {
 <div class="em-container em-margin em-light-grey em-border">
   <h2>Tags (Labels and Signs)</h2>
 
@@ -586,12 +622,16 @@
     <p><span class="em-tag em--jumbo em--blue em-padding-large">66</span></p>
   </div>
 </div>
-
+} @placeholder {
+<div>loading...</div>
+} @defer (on viewport) {
 <div class="em-container em-margin em-light-grey em-border">
   <h2>Icons</h2>
   <p>---</p>
 </div>
-
+} @placeholder {
+<div>loading...</div>
+} @defer (on viewport) {
 <div class="em-container em-margin em-light-grey em-border">
   <h2>Responsive</h2>
 
@@ -713,13 +753,13 @@
 
     <div class="em-row">
       <div class="em-third">
-        <img src="tree1.jpg" style="width: 100%" />
+        <img priority ngSrc="tree1.jpg" width="500" height="500" />
       </div>
       <div class="em-third">
-        <img src="tree2.jpg" style="width: 100%" />
+        <img priority ngSrc="tree2.jpg" width="500" height="500" />
       </div>
       <div class="em-third">
-        <img src="tree3.jpg" style="width: 100%" />
+        <img priority ngSrc="tree3.jpg" width="500" height="500" />
       </div>
     </div>
 
@@ -732,18 +772,20 @@
 
     <div class="em-row-padding">
       <div class="em-third">
-        <img src="tree1.jpg" style="width: 100%" />
+        <img priority ngSrc="tree1.jpg" width="500" height="500" />
       </div>
       <div class="em-third">
-        <img src="tree2.jpg" style="width: 100%" />
+        <img priority ngSrc="tree2.jpg" width="500" height="500" />
       </div>
       <div class="em-third">
-        <img src="tree3.jpg" style="width: 100%" />
+        <img priority ngSrc="tree3.jpg" width="500" height="500" />
       </div>
     </div>
   </div>
 </div>
-
+} @placeholder {
+<div>loading...</div>
+} @defer (on viewport) {
 <div class="em-container em-margin em-light-grey em-border">
   <h2>Layout</h2>
 
@@ -764,7 +806,9 @@
     </div>
   </div>
 </div>
-
+} @placeholder {
+<div>loading...</div>
+} @defer (on viewport) {
 <div class="em-container em-margin em-light-grey em-border">
   <h2>Animations</h2>
 
@@ -783,7 +827,13 @@
         The em-animate-fading class fades in and out elements every 10 seconds
         (continuously).
       </p>
-      <img class="em-animate-fading" src="tree2.jpg" style="width: 100%" />
+      <img
+        class="em-animate-fading"
+        priority
+        ngSrc="tree2.jpg"
+        width="500"
+        height="500"
+      />
     </div>
   </div>
 
@@ -817,105 +867,439 @@
       <p>The em-animate-top class slides in an element from the top.</p>
     </div>
   </div>
-
 </div>
-
+} @placeholder {
+<div>loading...</div>
+} @defer (on viewport) {
 <div class="em-container em-margin em-light-grey em-border">
   <h2>Effects</h2>
   <div class="em-panel">
-    <div class="em-third"><img src="tree1.jpg" class="em-grayscale-min" style="width: 100%"></div>
-    <div class="em-third"><img src="tree2.jpg" class="em-grayscale" style="width: 100%"></div>
-    <div class="em-third"><img src="tree3.jpg" class="em-grayscale-max" style="width: 100%"></div>
+    <div class="em-third">
+      <img
+        priority
+        ngSrc="tree1.jpg"
+        class="em-grayscale-min"
+        width="500"
+        height="500"
+      />
+    </div>
+    <div class="em-third">
+      <img
+        priority
+        ngSrc="tree2.jpg"
+        class="em-grayscale"
+        width="500"
+        height="500"
+      />
+    </div>
+    <div class="em-third">
+      <img
+        priority
+        ngSrc="tree3.jpg"
+        class="em-grayscale-max"
+        width="500"
+        height="500"
+      />
+    </div>
   </div>
   <div class="em-panel">
-    <div class="em-third"><img src="tree1.jpg" class="em-sepia-min" style="width: 100%"></div>
-    <div class="em-third"><img src="tree2.jpg" class="em-sepia" style="width: 100%"></div>
-    <div class="em-third"><img src="tree3.jpg" class="em-sepia-max" style="width: 100%"></div>
+    <div class="em-third">
+      <img
+        priority
+        ngSrc="tree1.jpg"
+        class="em-sepia-min"
+        width="500"
+        height="500"
+      />
+    </div>
+    <div class="em-third">
+      <img
+        priority
+        ngSrc="tree2.jpg"
+        class="em-sepia"
+        width="500"
+        height="500"
+      />
+    </div>
+    <div class="em-third">
+      <img
+        priority
+        ngSrc="tree3.jpg"
+        class="em-sepia-max"
+        width="500"
+        height="500"
+      />
+    </div>
   </div>
   <div class="em-panel">
-    <div class="em-third"><img src="tree1.jpg" class="em-hover-opacity" style="width: 100%"></div>
-    <div class="em-third"><img src="tree2.jpg" class="em-hover-grayscale" style="width: 100%"></div>
-    <div class="em-third"><img src="tree3.jpg" class="em-hover-sepia" style="width: 100%"></div>
+    <div class="em-third">
+      <img
+        priority
+        ngSrc="tree1.jpg"
+        class="em-hover-opacity"
+        width="500"
+        height="500"
+      />
+    </div>
+    <div class="em-third">
+      <img
+        priority
+        ngSrc="tree2.jpg"
+        class="em-hover-grayscale"
+        width="500"
+        height="500"
+      />
+    </div>
+    <div class="em-third">
+      <img
+        priority
+        ngSrc="tree3.jpg"
+        class="em-hover-sepia"
+        width="500"
+        height="500"
+      />
+    </div>
   </div>
   <div class="em-panel">
     <div class="em-container">
       <h2>Hover Effects</h2>
-      <p>You can also combine em-hover-color classes with em-hover-opacity to create a slightly "lighter" background-color.</p>
-    
+      <p>
+        You can also combine em-hover-color classes with em-hover-opacity to
+        create a slightly "lighter" background-color.
+      </p>
+
       <div class="em-panel em-border em-hover-red em-padding">
         <p>em-hover-red</p>
       </div>
-      
+
       <div class="em-panel em-border em-hover-opacity em-hover-red em-padding">
         <p>em-hover-red with em-hover-opacity</p>
       </div>
     </div>
   </div>
 </div>
-
+} @placeholder {
+<div>loading...</div>
+} @defer (on viewport) {
 <div class="em-container em-margin em-light-grey em-border">
   <h2>Bars</h2>
-  <div class="em-panel"></div>
+  <div class="em-panel">
+    <div class="em-bar em-green">
+      <div class="em-bar-item">London</div>
+      <div class="em-bar-item">Paris</div>
+      <div class="em-bar-item">Tokyo</div>
+    </div>
+  </div>
+  <div class="em-panel">
+    <div class="em-bar-block em-green">
+      <div class="em-bar-item">London</div>
+      <div class="em-bar-item">Paris</div>
+      <div class="em-bar-item">Tokyo</div>
+    </div>
+  </div>
 </div>
-
+} @placeholder {
+<div>loading...</div>
+} @defer (on viewport) {
 <div class="em-container em-margin em-light-grey em-border">
   <h2>Dropdowns</h2>
-  <p>---</p>
-</div>
+  <div class="em-panel">
+    <div class="em-dropdown-hover">
+      <div class="em-container em-white em-border">
+        <h2>Dropdown Button</h2>
+        <p>Move the mouse over the button to open the dropdown content.</p>
+        <div class="em-dropdown-hover">
+          <button class="em-button em-black">Hover Over Me!</button>
+          <div class="em-dropdown-content em-bar-block em-border">
+            <a href="#" class="em-bar-item em-button">Link 1</a>
+            <a href="#" class="em-bar-item em-button">Link 2</a>
+            <a href="#" class="em-bar-item em-button">Link 3</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
-<div class="em-container em-margin em-light-grey em-border">
-  <h2>Accordions</h2>
-  <p>---</p>
-</div>
+  <div class="em-panel">
+    <div class="em-container">
+      <h2>Card Dropdowns</h2>
+      <p>Move the mouse over "London" or "Tokyo":</p>
 
+      <div class="em-dropdown-hover">
+        London
+        <div class="em-dropdown-content em-card-4" style="width: 250px">
+          <img src="tree2.jpg" alt="London" style="width: 100%" />
+          <div class="em-container">
+            <p>London is the capital city of England.</p>
+            <p>It is the most populous city in the UK.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="em-dropdown-hover">
+        Tokyo
+        <div class="em-dropdown-content em-card-4" style="width: 250px">
+          <img src="tree2.jpg" alt="Tokyo" style="width: 100%" />
+          <div class="em-container">
+            <p>Tokyo is the capital city of Japan.</p>
+            <p>13 million inhabitants.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+} @placeholder {
+<div>loading...</div>
+} @defer (on viewport) {
 <div class="em-container em-margin em-light-grey em-border">
   <h2>Navigation Bars</h2>
-  <p>---</p>
-</div>
+  <div class="em-panel">
+    <div class="em-bar em-black">
+      <a href="#" class="em-bar-item em-button">Home</a>
+      <a href="#" class="em-bar-item em-button">Link 1</a>
+      <a href="#" class="em-bar-item em-button">Link 2</a>
+      <a href="#" class="em-bar-item em-button">Link 3</a>
+    </div>
+  </div>
 
-<div class="em-container em-margin em-light-grey em-border">
-  <h2>Sidebar</h2>
-  <p>---</p>
-</div>
+  <div class="em-panel">
+    <div class="em-bar em-border em-light-grey">
+      <a href="#" class="em-bar-item em-button em-green">Home</a>
+      <a href="#" class="em-bar-item em-button">Link 1</a>
+      <a href="#" class="em-bar-item em-button">Link 2</a>
+      <a href="#" class="em-bar-item em-button">Link 3</a>
+    </div>
+  </div>
 
-<div class="em-container em-margin em-light-grey em-border">
-  <h2>Navigation Tabs</h2>
-  <p>---</p>
-</div>
+  <div class="em-panel">
+    <div class="em-bar em-border em-light-grey">
+      <a href="#" class="em-bar-item em-button em-border-right">Home</a>
+      <a href="#" class="em-bar-item em-button em-border-right">Link 1</a>
+      <a href="#" class="em-bar-item em-button em-border-right">Link 2</a>
+      <a href="#" class="em-bar-item em-button em-border-right">Link 3</a>
+    </div>
+  </div>
 
+  <div class="em-panel">
+    <p>em-xxlarge:</p>
+    <div class="em-bar em-border em-green em-xxlarge">
+      <a href="#" class="em-bar-item em-button">Home</a>
+      <a href="#" class="em-bar-item em-button">Link 1</a>
+      <a href="#" class="em-bar-item em-button">Link 2</a>
+      <a href="#" class="em-bar-item em-button">Link 3</a>
+    </div>
+  </div>
+
+  <div class="em-panel">
+    <div class="em-bar em-dark-grey">
+      <a
+        href="#"
+        class="em-bar-item em-button em-mobile em-green"
+        style="width: 33%"
+        >Home</a
+      >
+      <a href="#" class="em-bar-item em-button em-mobile" style="width: 33%"
+        >Link 1</a
+      >
+      <a href="#" class="em-bar-item em-button em-mobile" style="width: 33%"
+        >Link 2</a
+      >
+    </div>
+  </div>
+
+  <div class="em-panel">
+    <div class="em-bar em-light-grey em-border">
+      <a href="#" class="em-bar-item em-button em-green"
+        ><i class="fa fa-home"></i
+      ></a>
+      <a href="#" class="em-bar-item em-button"><i class="fa fa-search"></i></a>
+      <a href="#" class="em-bar-item em-button"
+        ><i class="fa fa-envelope"></i
+      ></a>
+      <a href="#" class="em-bar-item em-button"><i class="fa fa-globe"></i></a>
+      <a href="#" class="em-bar-item em-button"
+        ><i class="fa fa-sign-in"></i
+      ></a>
+    </div>
+  </div>
+
+  <div class="em-panel">
+    <div class="em-bar em-white em-border">
+      <a href="#" class="em-bar-item em-button">Home</a>
+      <a href="#" class="em-bar-item em-button">Link 1</a>
+      <div class="em-dropdown-hover">
+        <button class="em-button">Dropdown</button>
+        <div class="em-dropdown-content em-bar-block em-card-4">
+          <a href="#" class="em-bar-item em-button">Link 1</a>
+          <a href="#" class="em-bar-item em-button">Link 2</a>
+          <a href="#" class="em-bar-item em-button">Link 3</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+} @placeholder {
+<div>loading...</div>
+} @defer (on viewport) {
 <div class="em-container em-margin em-light-grey em-border">
   <h2>Pagination</h2>
-  <p>---</p>
-</div>
 
+  <div class="em-panel">
+    <div class="em-bar">
+      <a href="#" class="em-button">1</a>
+      <a href="#" class="em-button">2</a>
+      <a href="#" class="em-button">3</a>
+      <a href="#" class="em-button">4</a>
+      <a href="#" class="em-button">5</a>
+    </div>
+    <div class="em-bar">
+      <a href="#" class="em-button">&laquo;</a>
+      <a href="#" class="em-button">1</a>
+      <a href="#" class="em-button">2</a>
+      <a href="#" class="em-button">3</a>
+      <a href="#" class="em-button">4</a>
+      <a href="#" class="em-button">&raquo;</a>
+    </div>
+    <div class="em-bar">
+      <a href="#" class="em-button">&laquo;</a>
+      <a href="#" class="em-button em-green">1</a>
+      <a href="#" class="em-button">2</a>
+      <a href="#" class="em-button">3</a>
+      <a href="#" class="em-button">4</a>
+      <a href="#" class="em-button">&raquo;</a>
+    </div>
+    <div class="em-bar">
+      <a href="#" class="em-button em-hover-purple">&laquo;</a>
+      <a href="#" class="em-button em-hover-green">1</a>
+      <a href="#" class="em-button em-hover-red">2</a>
+      <a href="#" class="em-button em-hover-blue">3</a>
+      <a href="#" class="em-button em-hover-black">4</a>
+      <a href="#" class="em-button em-hover-orange">&raquo;</a>
+    </div>
+    <div class="em-bar em-xlarge">
+      <a href="#" class="em-button">&laquo;</a>
+      <a href="#" class="em-button">1</a>
+      <a href="#" class="em-button">2</a>
+      <a href="#" class="em-button">3</a>
+      <a href="#" class="em-button">4</a>
+      <a href="#" class="em-button">&raquo;</a>
+    </div>
+
+    <div class="em-bar em-border">
+      <a href="#" class="em-bar-item em-button">&laquo;</a>
+      <a href="#" class="em-bar-item em-button">1</a>
+      <a href="#" class="em-bar-item em-button">2</a>
+      <a href="#" class="em-bar-item em-button">3</a>
+      <a href="#" class="em-bar-item em-button">4</a>
+      <a href="#" class="em-bar-item em-button">&raquo;</a>
+    </div>
+    
+    <div class="em-bar em-border em-round">
+      <a href="#" class="em-bar-item em-button">&laquo;</a>
+      <a href="#" class="em-bar-item em-button">1</a>
+      <a href="#" class="em-bar-item em-button">2</a>
+      <a href="#" class="em-bar-item em-button">3</a>
+      <a href="#" class="em-bar-item em-button">4</a>
+      <a href="#" class="em-bar-item em-button">&raquo;</a>
+    </div>
+
+    <div class="em-bar em-border em-round">
+      <a href="#" class="em-button">&#10094; Previous</a>
+      <a href="#" class="em-button em-right">Next &#10095;</a>
+    </div>
+    <br>  
+    <div class="em-bar em-border">
+      <a href="#" class="em-button em-border-right">&#10094;</a>
+      <a href="#" class="em-button em-border-left em-right">&#10095;</a>
+    </div>
+
+  </div>
+</div>
+} @placeholder {
+<div>loading...</div>
+} @defer (on viewport) {
 <div class="em-container em-margin em-light-grey em-border">
   <h2>Progress Bars</h2>
-  <p>---</p>
-</div>
+  <div class="em-pane em-white">
+    <div class="em-light-grey">
+      <div class="em-grey" style="height:24px;width:25%"></div>
+    </div><br>
+    
+    <div class="em-light-grey">
+      <div class="em-grey" style="height:24px;width:50%"></div>
+    </div><br>
+    
+    <div class="em-light-grey">
+      <div class="em-grey" style="height:24px;width:75%"></div>
+    </div>
 
-<div class="em-container em-margin em-light-grey em-border">
-  <h2>Slideshow</h2>
-  <p>---</p>
-</div>
+    <div class="em-light-grey">
+      <div class="em-container em-green em-center" style="width:25%">25%</div>
+    </div><br>
+    
+    <div class="em-light-grey">
+      <div class="em-container em-red em-center" style="width:50%">50%</div>
+    </div><br>
+    
+    <div class="em-light-grey">
+      <div class="em-container em-blue" style="width:75%">75%</div>
+    </div><br>
 
-<div class="em-container em-margin em-light-grey em-border">
-  <h2>Modal</h2>
-  <p>---</p>
+    <p>em-tiny:</p>
+    <div class="em-light-grey em-tiny">
+      <div class="em-container em-green" style="width:50%">50%</div>
+    </div>
+  
+    <p>em-small:</p>
+    <div class="em-light-grey em-small">
+      <div class="em-container em-green" style="width:50%">50%</div>
+    </div>
+  
+    <p>Default:</p>
+    <div class="em-light-grey">
+      <div class="em-container em-green" style="width:50%">50%</div>
+    </div>
+  
+    <p>em-large:</p>
+    <div class="em-light-grey em-large">
+      <div class="em-container em-green" style="width:50%">50%</div>
+    </div>
+  
+    <p>em-xlarge:</p>
+    <div class="em-light-grey em-xlarge">
+      <div class="em-container em-green" style="width:50%">50%</div>
+    </div>
+    
+    <p>em-xxlarge:</p>
+    <div class="em-light-grey em-xxlarge">
+      <div class="em-container em-green" style="width:50%">50%</div>
+    </div>
+  </div>
 </div>
-
+} @placeholder {
+<div>loading...</div>
+} @defer (on viewport) {
 <div class="em-container em-margin em-light-grey em-border">
   <h2>Tooltips</h2>
   <p>---</p>
 </div>
-
+} @placeholder {
+<div>loading...</div>
+} @defer (on viewport) {
 <div class="em-container em-margin em-light-grey em-border">
   <h2>Responsive Fluid Grid</h2>
   <p>---</p>
 </div>
-
+} @placeholder {
+<div>loading...</div>
+} @defer (on viewport) {
 <div class="em-container em-margin em-light-grey em-border">
   <h2>Code</h2>
   <p>---</p>
 </div>
+} @placeholder {
+<div>loading...</div>
+}
 
 <a class="em-button em-black em-right" href="#top">top</a>
