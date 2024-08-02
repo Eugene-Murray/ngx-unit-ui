@@ -26,7 +26,7 @@ export class SlideShowComponent {
       this.showSlides(this.slideIndex);
       this.slideItemCount = this.slides().length;
     });
-}
+  }
 
   plusSlides(n: number): void {
     this.showSlides((this.slideIndex += n));
@@ -51,8 +51,9 @@ export class SlideShowComponent {
     }
 
     for (i = 0; i < this.dots().length; i++) {
-      this.dots()[i].nativeElement.className = this.dots()[i]
-        .nativeElement.className.replace(' active', '');
+      this.dots()[i].nativeElement.className = this.dots()[
+        i
+      ].nativeElement.className.replace(' active', '');
     }
 
     if (this.slides().length > 0) {
@@ -60,7 +61,6 @@ export class SlideShowComponent {
     }
 
     if (this.dots().length > 0) {
-      
       this.dots()[this.slideIndex - 1].nativeElement.className += ' active';
     }
   }
