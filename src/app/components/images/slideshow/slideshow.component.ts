@@ -2,7 +2,7 @@ import {
   Component,
   effect,
   ElementRef,
-  OnInit,
+  input,
   viewChildren,
 } from '@angular/core';
 
@@ -13,21 +13,20 @@ import {
   templateUrl: './slideshow.component.html',
   styleUrl: './slideshow.component.scss',
 })
-export class SlideshowComponent implements OnInit {
+export class SlideShowComponent {
+  images = input<string[]>();
   slideIndex = 1;
+  slideItemCount = 0;
 
   private slides = viewChildren<ElementRef>('slideItem');
   private dots = viewChildren<ElementRef>('dot');
 
-  ngOnInit(): void {
-    this.showSlides(this.slideIndex);
-  }
-
   constructor() {
     effect(() => {
       this.showSlides(this.slideIndex);
+      this.slideItemCount = this.slides().length;
     });
-  }
+}
 
   plusSlides(n: number): void {
     this.showSlides((this.slideIndex += n));
