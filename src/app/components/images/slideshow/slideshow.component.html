@@ -1,6 +1,6 @@
 <div class="slideshow-container">
   @for (item of images(); track item;) {
-  <div class="slide-item fade" #slideItem>
+  <div class="slide-item" #slideItem>
     <div class="number-text">{{ slideIndex }} / {{ slideItemCount }}</div>
     <img src="{{ item }}" style="width: 100%" />
     <div class="text">Caption Text</div>

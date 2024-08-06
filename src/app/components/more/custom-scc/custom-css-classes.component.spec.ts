@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { CustomSccComponent } from './custom-scc.component';
+import { CustomCssClassesComponent } from './custom-css-classes.component';
 
 describe('CustomSccComponent', () => {
-  let component: CustomSccComponent;
-  let fixture: ComponentFixture<CustomSccComponent>;
+  let component: CustomCssClassesComponent;
+  let fixture: ComponentFixture<CustomCssClassesComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [CustomSccComponent]
+      imports: [CustomCssClassesComponent]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(CustomSccComponent);
+    fixture = TestBed.createComponent(CustomCssClassesComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
