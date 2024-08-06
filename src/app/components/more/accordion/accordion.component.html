@@ -1,0 +1,28 @@
+@for (item of items(); track item; let idx = $index) {
+<button class="accordion" (click)="click(idx)" #accordion>Section {{idx}}</button>
+<div class="panel">
+    <!-- <ng-content select="[item' + idx + ']"></ng-content> -->
+    @let slot = '[item' + idx + ']';
+    {{ slot }}
+    <ng-content select="{{ slot }}"></ng-content>
+</div>
+} @empty {
+    <li>There are no items.</li>
+}
+
+<!-- [[<ng-content select="[item0]"></ng-content>]] -->
+
+<!-- <ng-content select="[item1]"></ng-content>
+    <ng-content select="[item2]"></ng-content>
+    <ng-content select="[item3]"></ng-content> -->
+
+<!-- <button class="accordion" (click)="click(1)" #accordion>Section 2</button>
+<div class="panel">
+    <ng-content select="[item2]"></ng-content>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+
+<button class="accordion" (click)="click(2)" #accordion>Section 3</button>
+<div class="panel">
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div> -->
