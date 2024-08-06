@@ -1,13 +1,13 @@
-.em-bar {
+.unit-bar {
     width: 100%;
     overflow: hidden;
 }
-.em-center .em-bar {
+.unit-center .unit-bar {
     display: inline-block;
     width: auto;
 }
 
-.em-bar .em-bar-item {
+.unit-bar .unit-bar-item {
     padding: 8px 16px;
     float: left;
     width: auto;
@@ -16,17 +16,17 @@
     outline: 0;
 }
 
-.em-bar .em-dropdown-hover,
-.em-bar .em-dropdown-click {
+.unit-bar .unit-dropdown-hover,
+.unit-bar .unit-dropdown-click {
     position: static;
     float: left;
 }
 
-.em-bar .em-button {
+.unit-bar .unit-button {
     white-space: normal;
 }
 
-.em-bar-block .em-bar-item {
+.unit-bar-block .unit-bar-item {
     width: 100%;
     display: block;
     padding: 8px 16px;
@@ -37,10 +37,10 @@
     outline: 0;
 }
 
-.em-bar-block.em-center .em-bar-item {
+.unit-bar-block.unit-center .unit-bar-item {
     text-align: center;
 }
-.em-block {
+.unit-block {
     display: block;
     width: 100%;
 }

@@ -1,4 +1,4 @@
-.em-sidebar {
+.unit-sidebar {
     height: 100%;
     width: 200px;
     background-color: #fff;
@@ -6,16 +6,16 @@
     z-index: 1;
     overflow: auto;
 }
-.em-bar-block .em-dropdown-hover,
-.em-bar-block .em-dropdown-click {
+.unit-bar-block .unit-dropdown-hover,
+.unit-bar-block .unit-dropdown-click {
     width: 100%;
 }
-.em-bar-block .em-dropdown-hover .em-dropdown-content,
-.em-bar-block .em-dropdown-click .em-dropdown-content {
+.unit-bar-block .unit-dropdown-hover .unit-dropdown-content,
+.unit-bar-block .unit-dropdown-click .unit-dropdown-content {
     min-width: 100%;
 }
-.em-bar-block .em-dropdown-hover .em-button,
-.em-bar-block .em-dropdown-click .em-button {
+.unit-bar-block .unit-dropdown-hover .unit-button,
+.unit-bar-block .unit-dropdown-click .unit-button {
     width: 100%;
     text-align: left;
     padding: 8px 16px;

@@ -1,46 +1,46 @@
-.em-table,
-.em-table-all {
+.unit-table,
+.unit-table-all {
     border-collapse: collapse;
     border-spacing: 0;
     width: 100%;
     display: table;
 }
-.em-table-all {
+.unit-table-all {
     border: 1px solid #ccc;
 }
-.em-bordered tr,
-.em-table-all tr {
+.unit-bordered tr,
+.unit-table-all tr {
     border-bottom: 1px solid #ddd;
 }
-.em-striped tbody tr:nth-child(even) {
+.unit-striped tbody tr:nth-child(even) {
     background-color: #f1f1f1;
 }
-.em-table-all tr:nth-child(odd) {
+.unit-table-all tr:nth-child(odd) {
     background-color: #fff;
 }
-.em-table-all tr:nth-child(even) {
+.unit-table-all tr:nth-child(even) {
     background-color: #f1f1f1;
 }
-.em-hoverable tbody tr:hover,
-.em-ul.em-hoverable li:hover {
+.unit-hoverable tbody tr:hover,
+.unit-ul.unit-hoverable li:hover {
     background-color: #ccc;
 }
-.em-centered tr th,
-.em-centered tr td {
+.unit-centered tr th,
+.unit-centered tr td {
     text-align: center;
 }
-.em-table td,
-.em-table th,
-.em-table-all td,
-.em-table-all th {
+.unit-table td,
+.unit-table th,
+.unit-table-all td,
+.unit-table-all th {
     padding: 8px 8px;
     display: table-cell;
     text-align: left;
     vertical-align: top;
 }
-.em-table th:first-child,
-.em-table td:first-child,
-.em-table-all th:first-child,
-.em-table-all td:first-child {
+.unit-table th:first-child,
+.unit-table td:first-child,
+.unit-table-all th:first-child,
+.unit-table-all td:first-child {
     padding-left: 16px;
 }

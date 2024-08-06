@@ -1,5 +1,5 @@
-.em-btn,
-.em-button {
+.unit-btn,
+.unit-button {
     border: none;
     display: inline-block;
     padding: 8px 16px;
@@ -13,12 +13,12 @@
     white-space: nowrap;
 }
 
-.em-btn:hover {
+.unit-btn:hover {
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.em-btn,
-.em-button {
+.unit-btn,
+.unit-button {
     -webkit-touch-callout: none;
     -webkit-user-select: none;
     -khtml-user-select: none;
@@ -27,18 +27,18 @@
     user-select: none;
 }
 
-.em-disabled,
-.em-btn:disabled,
-.em-button:disabled {
+.unit-disabled,
+.unit-btn:disabled,
+.unit-button:disabled {
     cursor: not-allowed;
     opacity: 0.3;
 }
-.em-disabled *,
+.unit-disabled *,
 :disabled * {
     pointer-events: none;
 }
 
-.em-btn.em-disabled:hover,
-.em-btn:disabled:hover {
+.unit-btn.unit-disabled:hover,
+.unit-btn:disabled:hover {
     box-shadow: none;
 }

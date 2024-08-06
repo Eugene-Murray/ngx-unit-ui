@@ -1,8 +1,8 @@
-.em-spin {
-    animation: em-spin 2s infinite linear;
+.unit-spin {
+    animation: unit-spin 2s infinite linear;
 }
 
-@keyframes em-spin {
+@keyframes unit-spin {
     0% {
         transform: rotate(0deg);
     }
@@ -11,7 +11,7 @@
     }
 }
 
-.em-animate-fading {
+.unit-animate-fading {
     animation: fading 10s infinite;
 }
 
@@ -27,7 +27,7 @@
     }
 }
 
-.em-animate-opacity {
+.unit-animate-opacity {
     animation: opac 0.8s;
 }
 
@@ -40,7 +40,7 @@
     }
 }
 
-.em-animate-top {
+.unit-animate-top {
     position: relative;
     animation: animatetop 0.4s;
 }
@@ -55,7 +55,7 @@
     }
 }
 
-.em-animate-left {
+.unit-animate-left {
     position: relative;
     animation: animateleft 0.4s;
 }
@@ -70,7 +70,7 @@
     }
 }
 
-.em-animate-right {
+.unit-animate-right {
     position: relative;
     animation: animateright 0.4s;
 }
@@ -85,7 +85,7 @@
     }
 }
 
-.em-animate-bottom {
+.unit-animate-bottom {
     position: relative;
     animation: animatebottom 0.4s;
 }
@@ -100,7 +100,7 @@
     }
 }
 
-.em-animate-zoom {
+.unit-animate-zoom {
     animation: animatezoom 0.6s;
 }
 @keyframes animatezoom {
@@ -112,9 +112,9 @@
     }
 }
 
-.em-animate-input {
+.unit-animate-input {
     transition: width 0.4s ease-in-out;
 }
-.em-animate-input:focus {
+.unit-animate-input:focus {
     width: 100% !important;
 }
