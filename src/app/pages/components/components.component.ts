@@ -5,6 +5,7 @@ import { AccordionComponent } from '../../components/more/accordion/accordion.co
 import { CommonModule } from '@angular/common';
 import { CustomCssClassesComponent } from '../../components/more/custom-scc/custom-css-classes.component';
 import { ImageModalComponent } from '../../components/images/image-modal/image-modal.component';
+import { LightBoxComponent } from '../../components/images/light-box/light-box.component';
 
 @Component({
   selector: 'app-components',
@@ -15,7 +16,8 @@ import { ImageModalComponent } from '../../components/images/image-modal/image-m
     SlideShowGalleryComponent,
     ImageModalComponent,
     AccordionComponent, 
-    CustomCssClassesComponent],
+    CustomCssClassesComponent,
+    LightBoxComponent],
   templateUrl: './components.component.html',
   styleUrl: './components.component.scss'
 })

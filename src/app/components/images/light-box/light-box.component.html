@@ -1,0 +1,61 @@
+<div class="row">
+    <div class="column">
+      <img src="tree1.jpg" style="width:100%" (click)="openModal(1)" class="hover-shadow cursor">
+    </div>
+    <div class="column">
+      <img src="tree2.jpg" style="width:100%" (click)="openModal(2)" class="hover-shadow cursor">
+    </div>
+    <div class="column">
+      <img src="tree3.jpg" style="width:100%" (click)="openModal(3)" class="hover-shadow cursor">
+    </div>
+    <div class="column">
+      <img src="tree4.jpg" style="width:100%" (click)="openModal(4)" class="hover-shadow cursor">
+    </div>
+  </div>
+  
+  <div id="myModal" class="modal" #modal>
+    <span class="close cursor" (click)="closeModal()">&times;</span>
+    <div class="modal-content">
+  
+      <div class="mySlides" #slideItem>
+        <div class="numbertext">1 / 4</div>
+        <img src="tree1.jpg" style="width:100%">
+      </div>
+  
+      <div class="mySlides" #slideItem>
+        <div class="numbertext">2 / 4</div>
+        <img src="tree2.jpg" style="width:100%">
+      </div>
+  
+      <div class="mySlides" #slideItem>
+        <div class="numbertext">3 / 4</div>
+        <img src="tree3.jpg" style="width:100%">
+      </div>
+      
+      <div class="mySlides" #slideItem>
+        <div class="numbertext">4 / 4</div>
+        <img src="tree4.jpg" style="width:100%">
+      </div>
+      
+      <a class="prev" (click)="plusSlides(-1)">&#10094;</a>
+      <a class="next" (click)="plusSlides(1)">&#10095;</a>
+  
+      <div class="caption-container">
+        <p id="caption">caption</p>
+      </div>
+  
+  
+      <div class="column">
+        <img #dot class="dot cursor" src="tree1.jpg" style="width:100%" (click)="currentSlide(1)" alt="Nature and sunrise">
+      </div>
+      <div class="column">
+        <img #dot class="dot cursor" src="tree2.jpg" style="width:100%" (click)="currentSlide(2)" alt="Snow">
+      </div>
+      <div class="column">
+        <img #dot class="dot cursor" src="tree3.jpg" style="width:100%" (click)="currentSlide(3)" alt="Mountains and fjords">
+      </div>
+      <div class="column">
+        <img #dot class="dot cursor" src="tree4.jpg" style="width:100%" (click)="currentSlide(4)" alt="Northern Lights">
+      </div>
+    </div>
+  </div>
