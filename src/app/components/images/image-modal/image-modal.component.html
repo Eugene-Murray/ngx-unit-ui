@@ -1,1 +1,8 @@
-<p>image-modal works!</p>
+<img class="image" (click)="onOpen()" src="{{ imageSrc() }}" alt="{{ imageTitle() }}">
+
+<div class="modal" #modal>
+  <span class="close" (click)="onClose()">&times;</span>
+  <img class="modal-content" src="{{ imageSrc() }}">
+  <div id="caption">{{ imageTitle() }}</div>
+</div>
+

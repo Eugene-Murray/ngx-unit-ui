@@ -4,11 +4,18 @@ import { SlideShowGalleryComponent } from '../../components/images/slideshow-gal
 import { AccordionComponent } from '../../components/more/accordion/accordion.component';
 import { CommonModule } from '@angular/common';
 import { CustomCssClassesComponent } from '../../components/more/custom-scc/custom-css-classes.component';
+import { ImageModalComponent } from '../../components/images/image-modal/image-modal.component';
 
 @Component({
   selector: 'app-components',
   standalone: true,
-  imports: [CommonModule, SlideShowComponent, SlideShowGalleryComponent, AccordionComponent, CustomCssClassesComponent],
+  imports: [
+    CommonModule, 
+    SlideShowComponent, 
+    SlideShowGalleryComponent,
+    ImageModalComponent,
+    AccordionComponent, 
+    CustomCssClassesComponent],
   templateUrl: './components.component.html',
   styleUrl: './components.component.scss'
 })
