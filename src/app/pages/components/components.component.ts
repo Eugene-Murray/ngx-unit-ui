@@ -7,20 +7,22 @@ import { CustomCssClassesComponent } from '../../components/custom-scc/custom-cs
 import { ImageModalComponent } from '../../components/image-modal/image-modal.component';
 import { ImageLightBoxComponent } from '../../components/image-light-box/image-light-box.component';
 import { ImageResponsiveGridComponent } from '../../components/image-responsive-grid/image-responsive-grid.component';
+import { VideoFullScreenComponent } from "../../components/video-full-screen/video-full-screen.component";
 
 @Component({
   selector: 'app-components',
   standalone: true,
   imports: [
-    CommonModule, 
-    ImageSlideShowComponent, 
+    CommonModule,
+    ImageSlideShowComponent,
     ImageSlideShowGalleryComponent,
     ImageModalComponent,
-    AccordionComponent, 
+    AccordionComponent,
     CustomCssClassesComponent,
     ImageLightBoxComponent,
-    ImageResponsiveGridComponent
-  ],
+    ImageResponsiveGridComponent,
+    VideoFullScreenComponent
+],
   templateUrl: './components.component.html',
   styleUrl: './components.component.scss'
 })
