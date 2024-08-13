@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { ResponsiveImageGridComponent } from './image-responsive-grid.component';
+import { ImageResponsiveGridComponent } from './image-responsive-grid.component';
 
-describe('ResponsiveImageGridComponent', () => {
-  let component: ResponsiveImageGridComponent;
-  let fixture: ComponentFixture<ResponsiveImageGridComponent>;
+describe('ImageResponsiveGridComponent', () => {
+  let component: ImageResponsiveGridComponent;
+  let fixture: ComponentFixture<ImageResponsiveGridComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [ResponsiveImageGridComponent]
+      imports: [ImageResponsiveGridComponent]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(ResponsiveImageGridComponent);
+    fixture = TestBed.createComponent(ImageResponsiveGridComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
