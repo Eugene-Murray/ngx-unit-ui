@@ -8,6 +8,7 @@ import { ImageModalComponent } from '../../components/image-modal/image-modal.co
 import { ImageLightBoxComponent } from '../../components/image-light-box/image-light-box.component';
 import { ImageResponsiveGridComponent } from '../../components/image-responsive-grid/image-responsive-grid.component';
 import { VideoFullScreenComponent } from "../../components/video-full-screen/video-full-screen.component";
+import { StickySocialBarComponent } from "../../components/sticky-social-bar/sticky-social-bar.component";
 
 @Component({
   selector: 'app-components',
@@ -21,7 +22,8 @@ import { VideoFullScreenComponent } from "../../components/video-full-screen/vid
     CustomCssClassesComponent,
     ImageLightBoxComponent,
     ImageResponsiveGridComponent,
-    VideoFullScreenComponent
+    VideoFullScreenComponent,
+    StickySocialBarComponent
 ],
   templateUrl: './components.component.html',
   styleUrl: './components.component.scss'
