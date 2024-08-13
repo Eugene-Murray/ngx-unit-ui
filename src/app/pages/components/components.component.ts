@@ -1,25 +1,26 @@
 import { Component } from '@angular/core';
-import { SlideShowComponent } from '../../components/images/slideshow/slideshow.component';
-import { SlideShowGalleryComponent } from '../../components/images/slideshow-gallery/slideshow-gallery.component';
-import { AccordionComponent } from '../../components/more/accordion/accordion.component';
+import { ImageSlideShowComponent } from '../../components/image-slide-show/image-slide-show.component';
+import { ImageSlideShowGalleryComponent } from '../../components/image-slideshow-gallery/image-slideshow-gallery.component';
+import { AccordionComponent } from '../../components/accordion/accordion.component';
 import { CommonModule } from '@angular/common';
-import { CustomCssClassesComponent } from '../../components/more/custom-scc/custom-css-classes.component';
-import { ImageModalComponent } from '../../components/images/image-modal/image-modal.component';
-import { LightBoxComponent } from '../../components/images/light-box/light-box.component';
-import { ResponsiveImageGridComponent } from '../../components/images/responsive-image-grid/responsive-image-grid.component';
+import { CustomCssClassesComponent } from '../../components/custom-scc/custom-css-classes.component';
+import { ImageModalComponent } from '../../components/image-modal/image-modal.component';
+import { ImageLightBoxComponent } from '../../components/image-light-box/image-light-box.component';
+import { ImageResponsiveGridComponent } from '../../components/image-responsive-grid/image-responsive-grid.component';
 
 @Component({
   selector: 'app-components',
   standalone: true,
   imports: [
     CommonModule, 
-    SlideShowComponent, 
-    SlideShowGalleryComponent,
+    ImageSlideShowComponent, 
+    ImageSlideShowGalleryComponent,
     ImageModalComponent,
     AccordionComponent, 
     CustomCssClassesComponent,
-    LightBoxComponent,
-    ResponsiveImageGridComponent],
+    ImageLightBoxComponent,
+    ImageResponsiveGridComponent
+  ],
   templateUrl: './components.component.html',
   styleUrl: './components.component.scss'
 })

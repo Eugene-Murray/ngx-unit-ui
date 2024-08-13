@@ -1,6 +1,6 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { ResponsiveImageGridComponent } from './responsive-image-grid.component';
+import { ResponsiveImageGridComponent } from './image-responsive-grid.component';
 
 describe('ResponsiveImageGridComponent', () => {
   let component: ResponsiveImageGridComponent;

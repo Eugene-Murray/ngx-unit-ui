@@ -6,18 +6,18 @@
   <p>
     <span class="unit-tag unit-large unit-blue">Slideshow</span>
   </p>
-  <app-slideshow
+  <ngx-unit-image-slide-show
     [images]="['tree1.jpg', 'tree2.jpg', 'tree3.jpg']"
-  ></app-slideshow>
+  ></ngx-unit-image-slide-show>
 </div>
 
 <div class="unit-panel">
   <p>
     <span class="unit-tag unit-large unit-blue">Slideshow Gallery</span>
   </p>
-  <app-slideshow-gallery
+  <ngx-unit-image-slideshow-gallery
     [images]="['tree1.jpg', 'tree2.jpg', 'tree3.jpg']"
-  ></app-slideshow-gallery>
+  ></ngx-unit-image-slideshow-gallery>
 </div>
 
 <div class="unit-panel">  
@@ -25,7 +25,7 @@
   <span class="unit-tag unit-large unit-blue">Accordion</span>
 </p>
 
-  <app-accordion>
+  <ngx-unit-accordion>
     <div class="unit-container" #accordionItem item0>
       <p>1. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
     </div>
@@ -35,16 +35,16 @@
     <div class="unit-container" #accordionItem item1>
       <p>3. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
     </div>-->
-  </app-accordion> 
+  </ngx-unit-accordion> 
 
 
   <div class="unit-panel">
     <span class="unit-tag unit-black">Bootstrap</span>
-    <app-custom-css-classes customClasses="p-3 text-primary-emphasis bg-primary-subtle border border-primary-subtle rounded-3"></app-custom-css-classes>
+    <ngx-unit-custom-css-classes customClasses="p-3 text-primary-emphasis bg-primary-subtle border border-primary-subtle rounded-3"></ngx-unit-custom-css-classes>
   </div>
   <div class="unit-panel">
     <span class="unit-tag unit-black">Tailwind</span>
-    <app-custom-css-classes customClasses="bg-blue-500 text-white p-2 rounded"></app-custom-css-classes>
+    <ngx-unit-custom-css-classes customClasses="bg-blue-500 text-white p-2 rounded"></ngx-unit-custom-css-classes>
   </div>
 
 
@@ -52,10 +52,10 @@
     <p>
       <span class="unit-tag unit-large unit-blue">Image Modal</span>
     </p>
-    <app-image-modal
+    <ngx-unit-image-modal
       imageSrc="tree1.jpg"
       imageTitle="Tree"
-    ></app-image-modal>
+    ></ngx-unit-image-modal>
   </div>
 
 
@@ -63,14 +63,14 @@
     <p>
       <span class="unit-tag unit-large unit-blue">Image Light Box</span>
     </p>
-    <app-light-box></app-light-box>
+    <ngx-unit-light-box></ngx-unit-light-box>
   </div>
 
   <div class="unit-panel">
     <p>
       <span class="unit-tag unit-large unit-blue">Responsive Image Grid</span>
     </p>
-    <app-responsive-image-grid></app-responsive-image-grid>
+    <ngx-unit-image-responsive-grid></ngx-unit-image-responsive-grid>
   </div>
 
 </div>

@@ -1,6 +1,6 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { SlideShowGalleryComponent } from './slideshow-gallery.component';
+import { SlideShowGalleryComponent } from './image-slideshow-gallery.component';
 
 describe('SlideshowGalleryComponent', () => {
   let component: SlideShowGalleryComponent;

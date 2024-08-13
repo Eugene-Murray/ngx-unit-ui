@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { LightBoxComponent } from './light-box.component';
+import { SlideShowComponent } from './image-slide-show.component';
 
-describe('LightBoxComponent', () => {
-  let component: LightBoxComponent;
-  let fixture: ComponentFixture<LightBoxComponent>;
+describe('SlideshowComponent', () => {
+  let component: SlideShowComponent;
+  let fixture: ComponentFixture<SlideShowComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [LightBoxComponent]
+      imports: [SlideShowComponent]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(LightBoxComponent);
+    fixture = TestBed.createComponent(SlideShowComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

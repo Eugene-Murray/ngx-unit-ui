@@ -2,7 +2,7 @@ import { CommonModule } from '@angular/common';
 import { Component, Input } from '@angular/core';
 
 @Component({
-  selector: 'app-custom-css-classes',
+  selector: 'ngx-unit-custom-css-classes',
   standalone: true,
   imports: [CommonModule],
   templateUrl: './custom-css-classes.component.html',

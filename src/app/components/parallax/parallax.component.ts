@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-parallax',
+  selector: 'ngx-unit-parallax',
   standalone: true,
   imports: [],
   templateUrl: './parallax.component.html',

@@ -1,7 +1,7 @@
 import { Component, contentChildren, effect, ElementRef, viewChildren } from '@angular/core';
 
 @Component({
-  selector: 'app-accordion',
+  selector: 'ngx-unit-accordion',
   standalone: true,
   imports: [],
   templateUrl: './accordion.component.html',

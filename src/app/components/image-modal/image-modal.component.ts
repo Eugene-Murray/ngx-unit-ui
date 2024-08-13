@@ -2,7 +2,7 @@ import { CommonModule } from '@angular/common';
 import { Component, effect, ElementRef, input, Signal, viewChild } from '@angular/core';
 
 @Component({
-  selector: 'app-image-modal',
+  selector: 'ngx-unit-image-modal',
   standalone: true,
   imports: [CommonModule],
   templateUrl: './image-modal.component.html',

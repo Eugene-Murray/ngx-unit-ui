@@ -7,13 +7,13 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'app-slideshow-gallery',
+  selector: 'ngx-unit-image-slideshow-gallery',
   standalone: true,
   imports: [],
-  templateUrl: './slideshow-gallery.component.html',
-  styleUrl: './slideshow-gallery.component.scss'
+  templateUrl: './image-slideshow-gallery.component.html',
+  styleUrl: './image-slideshow-gallery.component.scss'
 })
-export class SlideShowGalleryComponent {
+export class ImageSlideShowGalleryComponent {
   images = input<string[]>();
   slideIndex = 1;
   slideItemCount = 0;
