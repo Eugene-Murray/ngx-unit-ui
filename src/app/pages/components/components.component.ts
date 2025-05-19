@@ -11,22 +11,21 @@ import { VideoFullScreenComponent } from "../../components/video-full-screen/vid
 import { StickySocialBarComponent } from "../../components/sticky-social-bar/sticky-social-bar.component";
 
 @Component({
-  selector: 'app-components',
-  standalone: true,
-  imports: [
-    CommonModule,
-    ImageSlideShowComponent,
-    ImageSlideShowGalleryComponent,
-    ImageModalComponent,
-    AccordionComponent,
-    CustomCssClassesComponent,
-    ImageLightBoxComponent,
-    ImageResponsiveGridComponent,
-    VideoFullScreenComponent,
-    StickySocialBarComponent
-],
-  templateUrl: './components.component.html',
-  styleUrl: './components.component.scss'
+    selector: 'app-components',
+    imports: [
+        CommonModule,
+        ImageSlideShowComponent,
+        ImageSlideShowGalleryComponent,
+        ImageModalComponent,
+        AccordionComponent,
+        CustomCssClassesComponent,
+        ImageLightBoxComponent,
+        ImageResponsiveGridComponent,
+        VideoFullScreenComponent,
+        StickySocialBarComponent
+    ],
+    templateUrl: './components.component.html',
+    styleUrl: './components.component.scss'
 })
 export class ComponentsComponent {
 

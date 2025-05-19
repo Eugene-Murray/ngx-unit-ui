@@ -1,6 +1,6 @@
-@import './colours';
-@import './typography';
-@import './variables';
+@use './colours';
+@use './typography';
+@use './variables';
 
 @mixin aunderline(
   $color,

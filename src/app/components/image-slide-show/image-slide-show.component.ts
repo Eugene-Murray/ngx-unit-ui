@@ -7,11 +7,10 @@ import {
 } from '@angular/core';
 
 @Component({
-  selector: 'ngx-unit-image-slide-show',
-  standalone: true,
-  imports: [],
-  templateUrl: './image-slide-show.component.html',
-  styleUrl: './image-slide-show.component.scss',
+    selector: 'ngx-unit-image-slide-show',
+    imports: [],
+    templateUrl: './image-slide-show.component.html',
+    styleUrl: './image-slide-show.component.scss'
 })
 export class ImageSlideShowComponent {
   images = input<string[]>();

@@ -1,11 +1,10 @@
 import { Component, effect, ElementRef, input, viewChild, viewChildren } from '@angular/core';
 
 @Component({
-  selector: 'ngx-unit-light-box',
-  standalone: true,
-  imports: [],
-  templateUrl: './image-light-box.component.html',
-  styleUrl: './image-light-box.component.scss'
+    selector: 'ngx-unit-light-box',
+    imports: [],
+    templateUrl: './image-light-box.component.html',
+    styleUrl: './image-light-box.component.scss'
 })
 export class ImageLightBoxComponent {
   images = input<string[]>();
